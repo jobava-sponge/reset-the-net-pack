@@ -45,7 +45,7 @@ $(document).ready(function(){
    $form.submit(function(){
 
      // Because there is no server side error handling, we can just assume success anyway
-     $('#thank-you-message').append("<p> Multumim pentru abonare! </p><br><p> Confirma abonarea prin email. </p>");
+     $('#thank-you-message').append("<p> Confirmă abonarea prin email! </p><p> Mulțumim!! </p>");
      $form.remove();
      $('.disclaimer').remove();
 
